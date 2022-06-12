@@ -93,6 +93,7 @@ a:hover {
   padding: 50px 20px;
 }
 
+
 .photo {
   width: 200px;
   border-radius: 50%;
@@ -132,3 +133,12 @@ a:hover {
 .project-img {
   border-radius: 15px;
 }
+
+  @media  (max-width: 768px) {
+
+    .section-flex {
+      display: flex;
+      flex-direction: column;
+    }
+    
+  }
